@@ -1,0 +1,10 @@
+{
+  "name": "sourcelink-gitlab-api-proxy",
+  "version": "1.0.0",
+  "description": "Proxies Sourcelink.Gitlab generateted raw file reguests to gitlabs v4 api.",
+  "author": "mcpride",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.1"
+  }
+}

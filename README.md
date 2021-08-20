@@ -28,9 +28,11 @@ Where the parameters:
 
 ## Run with Node
 
+Example:
+
 ```bash
 npm install
-export GITLAB_URL="https://gitlab.com.com"
+export GITLAB_URL="https://gitlab.com"
 export GITLAB_PRIVATE_TOKEN="23n4b3kr34kjr34r"
 export GITLAB_PROXY_PORT="6219"
 node sourcelink-gitlab-api-proxy.js

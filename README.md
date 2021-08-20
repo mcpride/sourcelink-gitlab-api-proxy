@@ -24,7 +24,7 @@ https://gitlab.com/api/v4/projects/${project_groups_and_name}/repository/files/{
 
 * `commit_hash` : Is the **full** commit hash of the requested target file version.
 
-* `file_path_and_name` : Is the relative directory and the target file name - relative to the repository root. All forward slash separators will be replaced by a percent encoded forward slash, e.g. `directory1%2subdirectory2%2filename3.cs`.
+* `file_path_and_name` : Is the relative directory and the target file name - relative to the repository root. All forward slash separators will be replaced by a percent encoded forward slash, e.g. `directory1%2Fsubdirectory2%2Ffilename3.cs`.
 
 ## Run with node
 
